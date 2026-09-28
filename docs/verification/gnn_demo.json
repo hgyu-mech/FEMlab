@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "steps": 500,
+  "train_mse": 1.0335569413655321e-06,
+  "heldout_load_relative_l2": 0.0018602028721943498,
+  "test_loads": [
+    -0.73,
+    -0.31,
+    0.17,
+    0.59,
+    0.89
+  ],
+  "scope": "One 1D spring-chain geometry and material, load interpolation only.",
+  "torch": "2.10.0+cpu",
+  "device": "cpu",
+  "pretrained_solver": false
+}
