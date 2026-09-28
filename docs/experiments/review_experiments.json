@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-09-28T03:26:40.793158+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  },
+  "audit_source_sha256": {
+    "femlab/conservation.py": "836c9203af917bc4eb66bedeae35499fae00245c3505744333464580664e6563",
+    "examples/review_experiments.py": "7d00f47ad9dc4448358e0018ed94b2b12721efc08080188dc5b052d8b3aa412d"
+  },
+  "scope": "Independent synthetic audits only. Not original data, trained policy or reproduction of Park (2025).",
+  "source_fingerprint": "86cbff7fc3925c09e4dea9ca38259810fc431d2f9a0d42247706e28179a20a38",
+  "bounded_local_alpha": {
+    "linear_defect_before": 0.09999999999999998,
+    "linear_defect_after": 0.0,
+    "kinetic_energy_change": -0.0025000000000000577
+  },
+  "actual_mpm_frame": {
+    "linear_defect_before": 0.008458708399845905,
+    "linear_defect_after": 3.3422138886441676e-16,
+    "kinetic_energy_change": -1.255212180361438e-05,
+    "note": "Nonuniform coefficients prescribed for a diagnostic; not ML training."
+  },
+  "energy_is_not_accuracy": {
+    "energy_max_drift": 1.1102230246251565e-16,
+    "displacement_rmse": 1.1292472376508602,
+    "kinematic_residual_max": 0.9999710363300245
+  },
+  "checkpoint_replay": {
+    "full_steps": 80,
+    "resumed_steps": 80,
+    "state_max_absolute_difference": 0.0,
+    "status": "completed"
+  }
+}

@@ -7,7 +7,7 @@ FEMlab is an independent, early-stage research and learning project maintained b
 optimization and solver-coupling interfaces. It is not an official university or
 laboratory software distribution.
 
-**Status: `0.1.0.dev0`, experimental.** There is working code, but no claim of
+**Status: `0.1.0.dev1`, experimental.** There is working code, but no claim of
 industrial readiness, broad adoption, or superiority to Abaqus or Ansys.
 Commercial-solver comparisons have **not** been run. Development history starts
 with the actual repository commits, not with the dates of literature studied.
@@ -96,3 +96,32 @@ Start with [the Korean guide](docs/GETTING_STARTED_KO.md) or
 [contributing](CONTRIBUTING.md). Original code is MIT-licensed. Private research
 reports, course recordings, commercial results, model weights and personal data
 are not redistributed; see [provenance](docs/PROVENANCE.md).
+
+## Dissertation review and checkpointed experiments (2026-09-28)
+
+The new [critical review](docs/reviews/PARK_2025_CRITICAL_REVIEW.md) and
+[Korean summary](docs/reviews/REVIEW_SUMMARY_KO.md) distinguish source evidence,
+printed inconsistencies and independent extension hypotheses. No thesis PDF,
+figures, private training data or edited derivative is redistributed.
+
+New executable components: a fixed-position momentum projection, a work-balance
+audit, synthetic counterexamples, and a bounded MPM checkpoint/resume runner.
+This is not the thesis ML-MPM implementation or a learned alpha/beta rollout.
+
+```bash
+python examples/review_experiments.py
+python -m femlab.campaign --config configs/mpm_smoke.json --run-dir outputs/demo --chunk-steps 80 --max-seconds 60
+python -m femlab.campaign --config configs/mpm_smoke.json --run-dir outputs/demo --chunk-steps 120 --max-seconds 60
+```
+
+The update has 67 locally passing tests (including optional PyTorch tests).
+The [independent audit snapshot](docs/experiments/review_experiments.json) includes
+an 80-step interrupted/uninterrupted replay with identical final arrays in the
+tested environment. This is not evidence of multi-month reliability or accuracy
+on the original dissertation problems.
+
+[Long-running compute](docs/LONG_RUNNING_COMPUTE.md) explains GitHub job limits,
+manually resumed artifacts, an opt-in workstation/HPC worker, budgets and a
+read-only progress dashboard. The short `research-audit` workflow creates
+downloadable results. No perpetual workflow, paid server or 70/140-day run is
+automatically started.

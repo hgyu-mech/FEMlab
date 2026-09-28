@@ -1,0 +1,105 @@
+name: research-audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'femlab/**'
+      - 'examples/review_experiments.py'
+      - 'tests/test_conservation_campaign.py'
+      - 'configs/**'
+      - '.github/workflows/research-audit.yml'
+  workflow_dispatch:
+    inputs:
+      resume_run_id:
+        description: 'Previous research-audit run ID with research-campaign artifact, or empty for new'
+        type: string
+        default: ''
+      chunk_steps:
+        description: 'Manual run step budget (1 to 5000); total case has 200 steps'
+        type: string
+        default: '100'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: research-audit-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      RESUME_RUN_ID: ${{ inputs.resume_run_id }}
+      CHUNK_STEPS: ${{ inputs.chunk_steps || '100' }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e ".[dev]"
+      - name: Validate manual inputs
+        run: |
+          python - <<'PY'
+          import os
+          value = os.environ['CHUNK_STEPS']
+          assert value.isdigit() and 1 <= int(value) <= 5000, 'Invalid step budget'
+          rid = os.environ.get('RESUME_RUN_ID', '')
+          assert not rid or (rid.isdigit() and int(rid) > 0), 'Invalid run ID'
+          PY
+      - name: Restore a previous manually selected checkpoint
+        if: github.event_name == 'workflow_dispatch' && inputs.resume_run_id != ''
+        uses: actions/download-artifact@v5
+        with:
+          name: research-campaign
+          path: outputs/campaign
+          github-token: ${{ github.token }}
+          run-id: ${{ inputs.resume_run_id }}
+      - run: python -m pytest -q
+      - run: python examples/review_experiments.py
+      - name: Automatic short restart demonstration
+        if: github.event_name != 'workflow_dispatch'
+        run: |
+          python -m femlab.campaign --config configs/mpm_smoke.json --run-dir outputs/campaign --chunk-steps 80 --max-seconds 120
+          python -m femlab.campaign --config configs/mpm_smoke.json --run-dir outputs/campaign --chunk-steps 120 --max-seconds 120
+      - name: One bounded manual segment
+        if: github.event_name == 'workflow_dispatch'
+        run: python -m femlab.campaign --config configs/mpm_smoke.json --run-dir outputs/campaign --chunk-steps "$CHUNK_STEPS" --max-seconds 120
+      - name: Publish job summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path('outputs/campaign/progress.json')
+          if path.exists():
+              p = json.loads(path.read_text())
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+                  f.write('## Bounded MPM run\n\n')
+                  f.write(f"Status: **{p['status']}**; step **{p['step']} / {p['config']['target_steps']}**.\n\n")
+                  f.write(f"Physical time: {p['latest']['simulation_time']} s. Signed energy drift: {p['latest']['relative_energy_drift']:.6g}.\n\n")
+                  f.write('This is a synthetic baseline and restart test, not the thesis ML-MPM result.\n')
+          PY
+      - name: Archive checkpoint and progress
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-campaign
+          path: |
+            outputs/campaign/checkpoint.npz
+            outputs/campaign/config.json
+            outputs/campaign/progress.json
+            outputs/campaign/records
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive independent audit results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-audit-results
+          path: outputs/review_experiments.json
+          retention-days: 14
+          if-no-files-found: warn

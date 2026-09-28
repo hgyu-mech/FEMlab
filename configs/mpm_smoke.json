@@ -1,0 +1,17 @@
+{
+  "target_steps": 200,
+  "dt": 0.0001,
+  "cells": 24,
+  "particles_per_axis": 5,
+  "young": 1000.0,
+  "poisson": 0.2,
+  "density": 1000.0,
+  "transfer": "apic",
+  "flip_ratio": 0.95,
+  "initial_strain": 0.02,
+  "seed": 7,
+  "checkpoint_every": 25,
+  "max_compute_seconds": 600.0,
+  "max_calendar_days": 7.0,
+  "max_relative_energy_drift": 1.0
+}

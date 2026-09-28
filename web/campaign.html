@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FEMlab campaign status</title>
+<style>body{font:16px system-ui,sans-serif;max-width:1000px;margin:2rem auto;padding:1rem}table{border-collapse:collapse;width:100%}td,th{text-align:left;border-bottom:1px solid;padding:.5rem}pre{white-space:pre-wrap}progress{width:100%;height:1.5rem}</style></head>
+<body><h1>FEMlab campaign</h1><p>Read-only status. Refreshes every 5 seconds. Does not run the solver.</p>
+<p id="status">Waiting for progress.json...</p><progress id="progress" value="0" max="1"></progress>
+<pre id="summary"></pre><h2>Recent checkpoints</h2><table><thead><tr><th>Step</th><th>Physical time [s]</th><th>Signed energy drift</th><th>Linear momentum drift</th></tr></thead><tbody id="rows"></tbody></table>
+<p>These are experimental free-block MPM results, not a reproduction or validation of the dissertation. Negative energy drift is unexplained loss for this unforced elastic example. A small drift alone does not prove solution accuracy.</p>
+<script>
+async function refresh(){try{
+ const response=await fetch('progress.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);
+ const p=await response.json();document.getElementById('status').textContent=p.status+' | updated '+p.updated_at_utc;
+ document.getElementById('progress').value=p.fraction_complete;
+ document.getElementById('summary').textContent=JSON.stringify({step:p.step,target_steps:p.config.target_steps,compute_seconds:p.compute_seconds,environment:p.environment,source_fingerprint:p.source_fingerprint,error:p.error},null,2);
+ const body=document.getElementById('rows');body.replaceChildren();
+ for(const r of [...p.history].reverse().slice(0,30)){const tr=document.createElement('tr');for(const value of [r.step,r.simulation_time,r.relative_energy_drift,r.linear_momentum_drift]){const td=document.createElement('td');td.textContent=String(value);tr.append(td);}body.append(tr);}
+}catch(e){document.getElementById('status').textContent='Status unavailable: '+e.message;}}
+refresh();setInterval(refresh,5000);
+</script></body></html>
