@@ -1,0 +1,173 @@
+{
+  "resources": {
+    "FemGui.pyd": {
+      "unique_resources": 179,
+      "by_prefix": {
+        "ui": 29,
+        "icons": 104,
+        "translations": 46
+      }
+    },
+    "StartGui.pyd": {
+      "unique_resources": 42,
+      "by_prefix": {
+        "icons": 3,
+        "thumbnails": 3,
+        "translations": 36
+      }
+    },
+    "FreeCADApp.dll": {
+      "unique_resources": 38,
+      "by_prefix": {
+        "translations": 38
+      }
+    }
+  },
+  "ui": [
+    {
+      "resource": "ui/SolverCcxTools.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/InitialFlowVelocity.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ConstraintSectionPrint.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/BodyHeatSource.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/DlgSettingsNetgen.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ElectrostaticPotential.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ConstraintCentrif.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/MeshGroup.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/Magnetization.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/CurrentDensity.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/MeshBoundaryLayer.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/TaskPostGlyph.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/SolverCalculiX.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/InitialPressure.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ElementFluid1D.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/FlowVelocity.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/Material.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ResultShow.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ResultHints.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ElementGeometry2D.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ElementGeometry1D.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/MeshRegion.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ConstraintTie.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/MeshGroupXDMFExport.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ElectricChargeDensity.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/MaterialReinforcement.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/MeshGmsh.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/SolverElmer.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    },
+    {
+      "resource": "ui/ElementRotation1D.ui",
+      "loose_file_present": true,
+      "identical_sha256": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+--- friction_false
++++ friction_true
+@@ -6,3 +6,5 @@
+ DEPSyntheticContact, INDSyntheticContact
+ *SURFACE INTERACTION, NAME=INTSyntheticContact
+ *SURFACE BEHAVIOR, PRESSURE-OVERCLOSURE=HARD
++*FRICTION
++0.2, 100

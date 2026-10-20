@@ -1,0 +1,109 @@
+{
+  "method": "Readback of newly produced INP/STA/FRD/CSV/FCStd, without solver repetition",
+  "cases": [
+    {
+      "name": "linear_baseline",
+      "solver_returncode": 0,
+      "job_finished": true,
+      "final_step_time": 1.0,
+      "reached_final_time_one": true,
+      "input_has_nlgeom": false,
+      "input_has_plastic": false,
+      "result_rows": 13234,
+      "max_displacement_mm": 0.3531399729493747,
+      "max_vonMises_MPa": 570.7626757793518,
+      "Peeq_min": 0.0,
+      "Peeq_max": 0.0,
+      "Peeq_positive_nodes": 0,
+      "Peeq_negative_nodes": 0,
+      "FCStd_result_Time_property": 0.0,
+      "file_hash_mismatches": [],
+      "FCStd_crc_bad_member": null
+    },
+    {
+      "name": "material_only",
+      "solver_returncode": 0,
+      "job_finished": true,
+      "final_step_time": 1.0,
+      "reached_final_time_one": true,
+      "input_has_nlgeom": false,
+      "input_has_plastic": true,
+      "result_rows": 13234,
+      "max_displacement_mm": 1.3622474020341873,
+      "max_vonMises_MPa": 295.4130862436759,
+      "Peeq_min": -0.00119152,
+      "Peeq_max": 0.057173,
+      "Peeq_positive_nodes": 2593,
+      "Peeq_negative_nodes": 386,
+      "FCStd_result_Time_property": 0.0,
+      "file_hash_mismatches": [],
+      "last_FRD_PE_block": {
+        "time": 1.0,
+        "count": 13234,
+        "min": -0.00119152,
+        "max": 0.057173,
+        "negative_count": 386
+      },
+      "FCStd_crc_bad_member": null
+    },
+    {
+      "name": "geometry_only",
+      "solver_returncode": 0,
+      "job_finished": true,
+      "final_step_time": 1.0,
+      "reached_final_time_one": true,
+      "input_has_nlgeom": true,
+      "input_has_plastic": false,
+      "result_rows": 13234,
+      "max_displacement_mm": 0.3523798248781344,
+      "max_vonMises_MPa": 571.3533186725251,
+      "Peeq_min": 0.0,
+      "Peeq_max": 0.0,
+      "Peeq_positive_nodes": 0,
+      "Peeq_negative_nodes": 0,
+      "FCStd_result_Time_property": 0.0,
+      "file_hash_mismatches": [],
+      "FCStd_crc_bad_member": null
+    }
+  ],
+  "controlled_model_checks": {
+    "all_meshes_identical": true,
+    "all_geometry_breps_identical": true,
+    "all_fixed_pressure_material_data_identical": true,
+    "changes": [
+      {
+        "case": "material_only",
+        "max_displacement_ratio_to_baseline": 3.857528193868542,
+        "max_displacement_percent_change": 285.7528193868542,
+        "max_peeq": 0.057173
+      },
+      {
+        "case": "geometry_only",
+        "max_displacement_ratio_to_baseline": 0.9978474595642864,
+        "max_displacement_percent_change": -0.2152540435713557,
+        "max_peeq": null
+      }
+    ]
+  },
+  "cautions": [
+    "Material-only nodal equivalent plastic strain contains negative values in raw FRD as well as imported CSV. Cause not independently established here; do not present all nodal PEEQ as physically admissible without further checks.",
+    "Imported result Time property is 0.0 although STA and final raw FRD block time reach 1.0. Completion evidence uses raw solver files, not that imported property.",
+    "Geometry-only response difference is small for this axial plate model; this verifies the NLGEOM execution branch and changed response, not large-rotation coverage or numerical accuracy."
+  ],
+  "nodal_comparisons": [
+    {
+      "case": "material_only",
+      "identical_node_id_set": true,
+      "shared_nodes": 13234,
+      "relative_displacement_vector_L2_difference": 3.2842516773129478,
+      "max_nodal_displacement_vector_difference_mm": 1.0285467889581703
+    },
+    {
+      "case": "geometry_only",
+      "identical_node_id_set": true,
+      "shared_nodes": 13234,
+      "relative_displacement_vector_L2_difference": 0.002319111687998364,
+      "max_nodal_displacement_vector_difference_mm": 0.0007645667071642434
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "themes": [
+    {
+      "theme": "FreeCAD Dark",
+      "source": "data/Gui/PreferencePacks/FreeCAD Dark/FreeCAD Dark.cfg",
+      "values": {
+        "Themes/ThemeAccentColor1": {
+          "raw": "1252392959",
+          "hex32": "4aa5ffff"
+        },
+        "Themes/ThemeAccentColor2": {
+          "raw": "3027763199",
+          "hex32": "b477ffff"
+        },
+        "Themes/ThemeAccentColor3": {
+          "raw": "1434171135",
+          "hex32": "557bb6ff"
+        },
+        "TreeView/FontSize": {
+          "raw": "11",
+          "hex32": "0000000b"
+        },
+        "TreeView/ItemBackgroundPadding": {
+          "raw": "11",
+          "hex32": "0000000b"
+        },
+        "TreeView/TreeActiveColor": {
+          "raw": "899696639",
+          "hex32": "35a047ff"
+        },
+        "View/BackgroundColor": {
+          "raw": "522133503",
+          "hex32": "1f1f1fff"
+        },
+        "View/SelectionColor": {
+          "raw": "899696639",
+          "hex32": "35a047ff"
+        }
+      }
+    },
+    {
+      "theme": "FreeCAD Light",
+      "source": "data/Gui/PreferencePacks/FreeCAD Light/FreeCAD Light.cfg",
+      "values": {
+        "Themes/ThemeAccentColor1": {
+          "raw": "1252392959",
+          "hex32": "4aa5ffff"
+        },
+        "Themes/ThemeAccentColor2": {
+          "raw": "3027763199",
+          "hex32": "b477ffff"
+        },
+        "Themes/ThemeAccentColor3": {
+          "raw": "1434171135",
+          "hex32": "557bb6ff"
+        },
+        "TreeView/TreeActiveColor": {
+          "raw": "1538528255",
+          "hex32": "5bb413ff"
+        },
+        "View/BackgroundColor": {
+          "raw": "4160223231",
+          "hex32": "f7f7f7ff"
+        },
+        "View/SelectionColor": {
+          "raw": "995875839",
+          "hex32": "3b5bdbff"
+        }
+      }
+    }
+  ],
+  "qss_bytes": 82141,
+  "tokens": [
+    "@AccentBackgroundColor",
+    "@AccentColor",
+    "@AccentHoverColor",
+    "@ActiveTabBackgroundColor",
+    "@ButtonBorderColor",
+    "@ButtonBottomBackgroundColor",
+    "@ButtonTopBackgroundColor",
+    "@CheckBoxBackgroundColor",
+    "@CheckBoxBorderColor",
+    "@CheckedButtonBottomBackgroundColor",
+    "@CheckedButtonTopBackgroundColor",
+    "@DefaultButtonBorderColor",
+    "@DefaultButtonBottomBackgroundColor",
+    "@DefaultButtonTopBackgroundColor",
+    "@DialogBackgroundColor",
+    "@GeneralAlternateBackgroundColor",
+    "@GeneralBackgroundColor",
+    "@GeneralBackgroundHoverColor",
+    "@GeneralBorderColor",
+    "@GeneralBorderHoverColor",
+    "@GeneralDisabledBackgroundColor",
+    "@GeneralGridLinesColor",
+    "@GeneralHeaderBackgroundColor",
+    "@GroupboxBackgroundColor",
+    "@GroupboxBorderColor",
+    "@IconsLocationFolderName",
+    "@InActiveTabBackgroundColor",
+    "@InputFieldBorderRadius",
+    "@MenuBackgroundColor",
+    "@PrimaryColor",
+    "@PrimaryColorDarken2",
+    "@RadioButtonBackgroundColor",
+    "@RadioButtonBorderColor",
+    "@ScrollbarBackgroundColor",
+    "@SketcherConflictingConstraintsColor",
+    "@SketcherEmptySketchColor",
+    "@SketcherFullyConstrainedColor",
+    "@SketcherMalformedConstraintsColor",
+    "@SketcherPartiallyRedundantConstraintsColor",
+    "@SketcherRedundantConstraintsColor",
+    "@SketcherSolverFailedColor",
+    "@SketcherUnderConstrainedColor",
+    "@StylesheetIconsColor",
+    "@TabbarBackgroundColor",
+    "@TextDisabledColor",
+    "@TextEditFieldBackgroundColor",
+    "@TextForegroundColor",
+    "@TextSelectBackgroundColor",
+    "@TextUrlColor",
+    "@ToolButtonCheckedBackground",
+    "@ToolButtonCheckedBorderColor",
+    "@ToolbarButtonsPadding"
+  ],
+  "note": "Configuration/stylesheet evidence only. Live UI appearance and runtime substitutions were not rendered."
+}

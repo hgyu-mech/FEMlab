@@ -1,0 +1,26 @@
+[
+  {
+    "binary": "lib/FemGui.pyd",
+    "registrations": 5,
+    "resources": 358,
+    "errors": []
+  },
+  {
+    "binary": "lib/StartGui.pyd",
+    "registrations": 5,
+    "resources": 84,
+    "errors": []
+  },
+  {
+    "binary": "bin/FreeCADApp.dll",
+    "registrations": 2,
+    "resources": 38,
+    "errors": []
+  },
+  {
+    "binary": "bin/FreeCADGui.dll",
+    "registrations": 0,
+    "resources": 0,
+    "errors": []
+  }
+]
