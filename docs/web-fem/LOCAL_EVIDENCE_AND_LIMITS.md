@@ -6,17 +6,17 @@ Updated 2026-10-20. This project is an independent, personal study and implement
 
 | Status | Examples |
 | --- | --- |
-| \`public-source-inspected\` | FreeCAD 1.1.4 contact writer and GUI C++ source, KoFEM WASM/React/MFEM source and test code |
-| \`uploaded-distribution-static\` | Hashes, PE imports/exports, Qt resource inventory, theme information, model serialization and stored result checks |
-| \`isolated-function-test\` | Contact writer keyword toggles and CalculiX GUI completion handler with synthetic test doubles |
-| \`actual-external-solver-run\` | Local new CalculiX linear/cantilever, contact, material-only and geometry-only runs |
-| \`actual-GUI-observation\` | Local FreeCAD contact property panel and result display/reopen examination |
-| \`numerical-validation-not-done\` | Formal benchmark error bounds, independent reference solver convergence, comprehensive nonlinear coverage |
-| \`planned\` | New WebFEA app, four-method capability and 1:1 alternative image design; no completed implementation |
+| `public-source-inspected` | FreeCAD 1.1.4 contact writer and GUI C++ source, KoFEM WASM/React/MFEM source and test code |
+| `uploaded-distribution-static` | Hashes, PE imports/exports, Qt resource inventory, theme information, model serialization and stored result checks |
+| `isolated-function-test` | Contact writer keyword toggles and CalculiX GUI completion handler with synthetic test doubles |
+| `actual-external-solver-run` | Local new CalculiX linear/cantilever, contact, material-only and geometry-only runs |
+| `actual-GUI-observation` | Local FreeCAD contact property panel and result display/reopen examination |
+| `numerical-validation-not-done` | Formal benchmark error bounds, independent reference solver convergence, comprehensive nonlinear coverage |
+| `planned` | New WebFEA app, four-method capability and 1:1 alternative image design; no completed implementation |
 
 ## Local evidence directories (available only on the connected PC)
 
-\`\`\`text
+```text
 D:\RDC_Workspace\output\
   FreeCAD_1.1.4_audit_20261020\
     REPORT_KO.md
@@ -36,15 +36,15 @@ D:\RDC_Workspace\output\
     run03\attempt02\runtime_verification.json
     audit_followup_20261020\검증현황.txt
     rea\
-\`\`\`
+```
 
-These local files are NOT implicitly accessible from a cloud Codex environment. To reproduce observations there, provide the authorized FreeCAD distribution in that environment and use the scripts after adapting paths. Do **not** commit local executable archives, \`.pyd\`, \`.dll\`, \`.7z\`, installer, full source-asset screenshots or example model bundles to the MIT repo.
+These local files are NOT implicitly accessible from a cloud Codex environment. To reproduce observations there, provide the authorized FreeCAD distribution in that environment and use the scripts after adapting paths. Do **not** commit local executable archives, `.pyd`, `.dll`, `.7z`, installer, full source-asset screenshots or example model bundles to the MIT repo.
 
 ## Omitted materials
 
 - Meeting audio/transcripts, internal lab materials and slide templates, task/personnel information, unpublished algorithms, credentials or identifying metadata.
 - Original FreeCAD and third-party image payloads (the filename/digest manifest is included).
-- Binary disassembly archives, large local \`.FCStd\` solved cases, raw \`.frd\` / \`.inp\` / screenshot bundles and recreated UI resource assets.
+- Binary disassembly archives, large local `.FCStd` solved cases, raw `.frd` / `.inp` / screenshot bundles and recreated UI resource assets.
 - No new author-created icon assets existed at the time this note was written.
 
 ## What Codex can do immediately
