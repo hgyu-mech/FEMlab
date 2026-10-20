@@ -1,0 +1,336 @@
+{
+  "method": "independent readback of newly generated solver files and FCStd containers; no repeated solve",
+  "cases": [
+    {
+      "name": "linear_cantilever",
+      "solver_returncode": 0,
+      "solver_elapsed_seconds": 0.625,
+      "job_finished_in_stdout": true,
+      "sta_last_record": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.100000E+01",
+        "0.100000E+01",
+        "0.100000E+01"
+      ],
+      "reached_final_time_one": true,
+      "unsuccessful_attempts": 0,
+      "successful_increments": 1,
+      "input_mesh": {
+        "nodes": 228,
+        "volumes": 79,
+        "faces": 0
+      },
+      "imported_results": 1,
+      "last_result": {
+        "Name": "CCX_Results",
+        "TypeId": "Fem::FemResultObjectPython",
+        "properties": [
+          "CriticalStrainRatio",
+          "DisplacementLengths",
+          "DisplacementVectors",
+          "Eigenmode",
+          "EigenmodeFrequency",
+          "ExpressionEngine",
+          "HeatFlux",
+          "Label",
+          "Label2",
+          "MassFlowRate",
+          "MaxShear",
+          "Mesh",
+          "MohrCoulomb",
+          "NetworkPressure",
+          "NodeNumbers",
+          "NodeStrainXX",
+          "NodeStrainXY",
+          "NodeStrainXZ",
+          "NodeStrainYY",
+          "NodeStrainYZ",
+          "NodeStrainZZ",
+          "NodeStressXX",
+          "NodeStressXY",
+          "NodeStressXZ",
+          "NodeStressYY",
+          "NodeStressYZ",
+          "NodeStressZZ",
+          "PS1Vector",
+          "PS2Vector",
+          "PS3Vector",
+          "Peeq",
+          "PrincipalMax",
+          "PrincipalMed",
+          "PrincipalMin",
+          "Proxy",
+          "ReinforcementRatio_x",
+          "ReinforcementRatio_y",
+          "ReinforcementRatio_z",
+          "ResultType",
+          "Stats",
+          "Temperature",
+          "Time",
+          "UserDefined",
+          "Visibility",
+          "vonMises"
+        ],
+        "DisplacementLengths": {
+          "count": 228,
+          "min": 0.0,
+          "max": 87.30645411423656
+        },
+        "vonMises": {
+          "count": 228,
+          "min": 11.638734087262197,
+          "max": 409.7661516051837
+        },
+        "NodeNumbers": {
+          "count": 228,
+          "min": 1,
+          "max": 228
+        },
+        "Stats": {
+          "count": 26,
+          "min": -468.90747130346836,
+          "max": 470.5608358229785
+        },
+        "PrincipalMax": {
+          "count": 228,
+          "min": -186.4400697710272,
+          "max": 470.5608358229785
+        },
+        "PrincipalMed": {
+          "count": 228,
+          "min": -195.47699806980086,
+          "max": 198.57800376977787
+        },
+        "PrincipalMin": {
+          "count": 228,
+          "min": -468.90747130346836,
+          "max": 191.36516040724365
+        },
+        "max_displacement": {
+          "node": 64,
+          "vector": [
+            8.12992,
+            0.0248271,
+            -86.9271
+          ],
+          "magnitude_mm": 87.30645411423656
+        }
+      },
+      "files": [
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\linear_cantilever\\Mesh.inp",
+          "bytes": 11863,
+          "mtime": 1792479322.506859,
+          "sha256": "126d26d6c26da84570a8c9729fd2b296d34f3712a877c8f2b9c81f605bd48516"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\linear_cantilever\\Mesh.frd",
+          "bytes": 80632,
+          "mtime": 1792479323.467711,
+          "sha256": "6883fa4d9366176c550aff5ac563388ee13dd18878fa1199c94e5521b491a347"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\linear_cantilever\\Mesh.dat",
+          "bytes": 225,
+          "mtime": 1792479323.467711,
+          "sha256": "247d78c7ee1f9022530b7d6521223ed5ab0235e9b78633d6cce84f6bd0210feb"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\linear_cantilever\\Mesh.sta",
+          "bytes": 173,
+          "mtime": 1792479323.467711,
+          "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\linear_cantilever\\ccx_stdout.log",
+          "bytes": 2188,
+          "mtime": 1792479323.467711,
+          "sha256": "dce4f2def09398c732eb768b7f0e525efbbf94d7f31aed8879a3920eee6b85bf"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\linear_cantilever\\ccx_stderr.log",
+          "bytes": 0,
+          "mtime": 1792479322.837715,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\linear_cantilever\\linear_cantilever_solved.FCStd",
+          "bytes": 92383,
+          "mtime": 1792479324.082592,
+          "sha256": "199998f331bd961908754e934d25e83c7457f26014feac3d671890734357dff6",
+          "bad_crc_member": null,
+          "members": 33
+        }
+      ]
+    },
+    {
+      "name": "contact_solid_solid",
+      "solver_returncode": 0,
+      "solver_elapsed_seconds": 38.32799999999952,
+      "job_finished_in_stdout": true,
+      "sta_last_record": [
+        "1",
+        "8",
+        "1",
+        "11",
+        "0.100000E+01",
+        "0.100000E+01",
+        "0.117188E+00"
+      ],
+      "reached_final_time_one": true,
+      "unsuccessful_attempts": 6,
+      "successful_increments": 8,
+      "input_mesh": {
+        "nodes": 2983,
+        "volumes": 1316,
+        "faces": 0
+      },
+      "imported_results": 8,
+      "last_result": {
+        "Name": "CCX_Time_1_0_Results",
+        "TypeId": "Fem::FemResultObjectPython",
+        "properties": [
+          "CriticalStrainRatio",
+          "DisplacementLengths",
+          "DisplacementVectors",
+          "Eigenmode",
+          "EigenmodeFrequency",
+          "ExpressionEngine",
+          "HeatFlux",
+          "Label",
+          "Label2",
+          "MassFlowRate",
+          "MaxShear",
+          "Mesh",
+          "MohrCoulomb",
+          "NetworkPressure",
+          "NodeNumbers",
+          "NodeStrainXX",
+          "NodeStrainXY",
+          "NodeStrainXZ",
+          "NodeStrainYY",
+          "NodeStrainYZ",
+          "NodeStrainZZ",
+          "NodeStressXX",
+          "NodeStressXY",
+          "NodeStressXZ",
+          "NodeStressYY",
+          "NodeStressYZ",
+          "NodeStressZZ",
+          "PS1Vector",
+          "PS2Vector",
+          "PS3Vector",
+          "Peeq",
+          "PrincipalMax",
+          "PrincipalMed",
+          "PrincipalMin",
+          "Proxy",
+          "ReinforcementRatio_x",
+          "ReinforcementRatio_y",
+          "ReinforcementRatio_z",
+          "ResultType",
+          "Stats",
+          "Temperature",
+          "Time",
+          "UserDefined",
+          "Visibility",
+          "vonMises"
+        ],
+        "DisplacementLengths": {
+          "count": 2983,
+          "min": 0.0,
+          "max": 46.28468664204965
+        },
+        "vonMises": {
+          "count": 2983,
+          "min": 70.4286620359609,
+          "max": 17595.042352195178
+        },
+        "NodeNumbers": {
+          "count": 2983,
+          "min": 1,
+          "max": 2983
+        },
+        "Stats": {
+          "count": 26,
+          "min": -24543.3975374453,
+          "max": 18775.701890216427
+        },
+        "PrincipalMax": {
+          "count": 2983,
+          "min": -8025.652262027541,
+          "max": 18775.701890216427
+        },
+        "PrincipalMed": {
+          "count": 2983,
+          "min": -9139.817556748983,
+          "max": 7696.390078361656
+        },
+        "PrincipalMin": {
+          "count": 2983,
+          "min": -24543.3975374453,
+          "max": 6920.145661132503
+        },
+        "max_displacement": {
+          "node": 1737,
+          "vector": [
+            -0.0454001,
+            46.2843,
+            0.183657
+          ],
+          "magnitude_mm": 46.28468664204965
+        }
+      },
+      "files": [
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\contact_solid_solid\\Mesh.inp",
+          "bytes": 228142,
+          "mtime": 1792479324.4244156,
+          "sha256": "c84a07013dc3f2edf1d869fc05d9c842d1d01f256798b3c5be4c5b441bb37763"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\contact_solid_solid\\Mesh.frd",
+          "bytes": 6253706,
+          "mtime": 1792479362.7637787,
+          "sha256": "84a0006c03158de51dcd4301077ec7836d4370b192f27f5a38aa425904f975f8"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\contact_solid_solid\\Mesh.dat",
+          "bytes": 16245,
+          "mtime": 1792479362.7627773,
+          "sha256": "cd878e0c48e4a1d5f15c8d30b0991f2c255a7b52b93ec2059e89c6fa7a9debf1"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\contact_solid_solid\\Mesh.sta",
+          "bytes": 1122,
+          "mtime": 1792479362.7482696,
+          "sha256": "a5fd46ae29d91a2f25922e0c72ba038174ae85ad4e494344ad214144a406d846"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\contact_solid_solid\\ccx_stdout.log",
+          "bytes": 286466,
+          "mtime": 1792479362.7637787,
+          "sha256": "26038f5b4db26aa1c4f2ab9300e453079b5095b4bf7bb22d3238c278ab8e3b03"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\contact_solid_solid\\ccx_stderr.log",
+          "bytes": 0,
+          "mtime": 1792479324.442414,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\RDC_Workspace\\output\\FreeCAD_1.1.4_workflow_20261020\\run02\\contact_solid_solid\\contact_solid_solid_solved.FCStd",
+          "bytes": 8154858,
+          "mtime": 1792479366.4345713,
+          "sha256": "c36a86cf381484848e9909682b8cfef0517dfa9db85b9663b035fd835f5dace9",
+          "bad_crc_member": null,
+          "members": 213
+        }
+      ]
+    }
+  ],
+  "gui": "FreeCAD GUI opened generated linear model with isolated config; sky window-binding failure prevented GUI screenshot/interaction validation"
+}

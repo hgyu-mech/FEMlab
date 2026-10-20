@@ -1,0 +1,19 @@
+{
+  "source_sha256": "229455e61fc968e5153fc382b3fb80b78069ec734483bd7431be2cd077ae9d56",
+  "source_file": "Mod/Fem/femsolver/calculix/write_constraint_contact.py",
+  "method": "AST-isolated execution of reviewed writer functions; synthetic geometry IDs and dummy quantities already expressed in requested units. No full FreeCAD environment, meshing, CalculiX, FE solve or unit conversion was executed.",
+  "cases": {
+    "hard_no_friction": "*SURFACE, NAME=DEPSyntheticContact\n10,S2\n*SURFACE, NAME=INDSyntheticContact\n20,S4\n*CONTACT PAIR, INTERACTION=INTSyntheticContact, TYPE=SURFACE TO SURFACE\nDEPSyntheticContact, INDSyntheticContact\n*SURFACE INTERACTION, NAME=INTSyntheticContact\n*SURFACE BEHAVIOR, PRESSURE-OVERCLOSURE=HARD\n",
+    "hard_with_friction": "*SURFACE, NAME=DEPSyntheticContact\n10,S2\n*SURFACE, NAME=INDSyntheticContact\n20,S4\n*CONTACT PAIR, INTERACTION=INTSyntheticContact, TYPE=SURFACE TO SURFACE\nDEPSyntheticContact, INDSyntheticContact\n*SURFACE INTERACTION, NAME=INTSyntheticContact\n*SURFACE BEHAVIOR, PRESSURE-OVERCLOSURE=HARD\n*FRICTION\n0.2, 100\n",
+    "linear_no_friction": "*SURFACE, NAME=DEPSyntheticContact\n10,S2\n*SURFACE, NAME=INDSyntheticContact\n20,S4\n*CONTACT PAIR, INTERACTION=INTSyntheticContact, TYPE=SURFACE TO SURFACE\nDEPSyntheticContact, INDSyntheticContact\n*SURFACE INTERACTION, NAME=INTSyntheticContact\n*SURFACE BEHAVIOR, PRESSURE-OVERCLOSURE=LINEAR\n1000\n",
+    "tied_no_friction": "*SURFACE, NAME=DEPSyntheticContact\n10,S2\n*SURFACE, NAME=INDSyntheticContact\n20,S4\n*CONTACT PAIR, INTERACTION=INTSyntheticContact, TYPE=SURFACE TO SURFACE\nDEPSyntheticContact, INDSyntheticContact\n*SURFACE INTERACTION, NAME=INTSyntheticContact\n*SURFACE BEHAVIOR, PRESSURE-OVERCLOSURE=TIED\n1000\n"
+  },
+  "friction_only_diff": "--- friction_false\n+++ friction_true\n@@ -6,3 +6,5 @@\n DEPSyntheticContact, INDSyntheticContact\n *SURFACE INTERACTION, NAME=INTSyntheticContact\n *SURFACE BEHAVIOR, PRESSURE-OVERCLOSURE=HARD\n+*FRICTION\n+0.2, 100\n",
+  "assertions": {
+    "off_has_no_friction": true,
+    "on_has_coefficient": true,
+    "slave_master_order": true,
+    "linear_keyword": true,
+    "tied_not_hard": true
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "source_document_sha256": "6ca9cbfef7b151677c40c9a4b6a289718471a84674e24f57a965d300e9114f93",
+  "numeric_format": "For inspected FloatList/VectorList files: little-endian uint32 count, then IEEE754 float64 values; VectorList has three doubles per item. Verified by exact length and vector-norm cross-check.",
+  "results": [
+    {
+      "object": "CCX_Results001",
+      "label": {
+        "value": "CCX_Results001"
+      },
+      "mesh": {
+        "value": "CCX_Results_Mesh001"
+      },
+      "fields": {
+        "DisplacementLengths": {
+          "file": "DisplacementLengths",
+          "header_count_uint32_le": 408,
+          "components": 1,
+          "length_bytes": 3268,
+          "finite": true,
+          "min": 0.0,
+          "max": 86.87300528659505
+        },
+        "DisplacementVectors": {
+          "file": "DisplacementVectors",
+          "header_count_uint32_le": 408,
+          "components": 3,
+          "length_bytes": 9796,
+          "finite": true,
+          "min": -86.5006,
+          "max": 8.03525
+        },
+        "vonMises": {
+          "file": "vonMises",
+          "header_count_uint32_le": 408,
+          "components": 1,
+          "length_bytes": 3268,
+          "finite": true,
+          "min": 9.373390789826274,
+          "max": 396.6411617899301
+        },
+        "Stats": {
+          "file": "Stats",
+          "header_count_uint32_le": 26,
+          "components": 1,
+          "length_bytes": 212,
+          "finite": true,
+          "min": -439.74590368801995,
+          "max": 439.677561627251,
+          "values": [
+            -8.03533,
+            8.03525,
+            -86.5006,
+            0.0,
+            -0.23348,
+            0.23348,
+            0.0,
+            86.87300528659505,
+            9.373390789826274,
+            396.6411617899301,
+            -57.2105,
+            439.677561627251,
+            -98.43133299516339,
+            96.03276322627752,
+            -439.74590368801995,
+            55.5501,
+            5.399213727731567,
+            205.9014186233676,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "vector_length_max_abs_difference": 0.0,
+      "NodeNumbers_count": 408,
+      "component_ranges": {
+        "Ux": {
+          "min": -8.03533,
+          "max": 8.03525
+        },
+        "Uy": {
+          "min": -86.5006,
+          "max": 0.0
+        },
+        "Uz": {
+          "min": -0.23348,
+          "max": 0.23348
+        }
+      },
+      "norm_reference_difference_percent_not_a_validation_error": -1.0235942372777806
+    },
+    {
+      "object": "CCX_Results",
+      "label": {
+        "value": "CCX_Results003"
+      },
+      "mesh": {
+        "value": "CCX_Results_Mesh"
+      },
+      "fields": {
+        "DisplacementLengths": {
+          "file": "DisplacementLengths1",
+          "header_count_uint32_le": 569,
+          "components": 1,
+          "length_bytes": 4556,
+          "finite": true,
+          "min": 0.0,
+          "max": 87.93698784321887
+        },
+        "DisplacementVectors": {
+          "file": "DisplacementVectors1",
+          "header_count_uint32_le": 569,
+          "components": 3,
+          "length_bytes": 13660,
+          "finite": true,
+          "min": -87.5567,
+          "max": 8.16934
+        },
+        "vonMises": {
+          "file": "vonMises1",
+          "header_count_uint32_le": 569,
+          "components": 1,
+          "length_bytes": 4556,
+          "finite": true,
+          "min": 3.4918894457877063,
+          "max": 423.59929113522855
+        },
+        "Stats": {
+          "file": "Stats1",
+          "header_count_uint32_le": 26,
+          "components": 1,
+          "length_bytes": 212,
+          "finite": true,
+          "min": -485.6982973943824,
+          "max": 485.5154854522816,
+          "values": [
+            -8.16779,
+            8.16934,
+            -0.276967,
+            0.27679,
+            -87.5567,
+            0.0,
+            0.0,
+            87.93698784321887,
+            3.4918894457877063,
+            423.59929113522855,
+            -180.0760955146838,
+            485.5154854522816,
+            -197.60801317270426,
+            199.4810115909383,
+            -485.6982973943824,
+            181.9244085594622,
+            1.953874430816043,
+            218.15124919858283,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "vector_length_max_abs_difference": 0.0,
+      "NodeNumbers_count": 569,
+      "component_ranges": {
+        "Ux": {
+          "min": -8.16779,
+          "max": 8.16934
+        },
+        "Uy": {
+          "min": -0.276967,
+          "max": 0.27679
+        },
+        "Uz": {
+          "min": -87.5567,
+          "max": 0.0
+        }
+      },
+      "norm_reference_difference_percent_not_a_validation_error": 0.1886254724173364
+    },
+    {
+      "object": "CCX_Results002",
+      "label": {
+        "value": "CCX_Results004"
+      },
+      "mesh": {
+        "value": "CCX_Results_Mesh002"
+      },
+      "fields": {
+        "DisplacementLengths": {
+          "file": "DisplacementLengths2",
+          "header_count_uint32_le": 200,
+          "components": 1,
+          "length_bytes": 1604,
+          "finite": true,
+          "min": 2.3757015098374628e-15,
+          "max": 88.37503911091486
+        },
+        "DisplacementVectors": {
+          "file": "DisplacementVectors2",
+          "header_count_uint32_le": 200,
+          "components": 3,
+          "length_bytes": 4804,
+          "finite": true,
+          "min": -87.9957,
+          "max": 8.18343
+        },
+        "vonMises": {
+          "file": "vonMises2",
+          "header_count_uint32_le": 200,
+          "components": 1,
+          "length_bytes": 1604,
+          "finite": true,
+          "min": 15.587833729833514,
+          "max": 424.3631399247864
+        },
+        "Stats": {
+          "file": "Stats2",
+          "header_count_uint32_le": 26,
+          "components": 1,
+          "length_bytes": 212,
+          "finite": true,
+          "min": -432.28706096386907,
+          "max": 432.28706096386907,
+          "values": [
+            -8.18343,
+            8.18343,
+            -0.295427,
+            0.295427,
+            -87.9957,
+            2.77014e-13,
+            2.3757015098374628e-15,
+            88.37503911091486,
+            15.587833729833514,
+            424.3631399247864,
+            -48.00889999999998,
+            432.28706096386907,
+            -163.61575442883205,
+            163.61575442883205,
+            -432.28706096386907,
+            48.008900000000004,
+            8.999640000002508,
+            218.50923243089986,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "vector_length_max_abs_difference": 0.0,
+      "NodeNumbers_count": 200,
+      "component_ranges": {
+        "Ux": {
+          "min": -8.18343,
+          "max": 8.18343
+        },
+        "Uy": {
+          "min": -0.295427,
+          "max": 0.295427
+        },
+        "Uz": {
+          "min": -87.9957,
+          "max": 2.77014e-13
+        }
+      },
+      "norm_reference_difference_percent_not_a_validation_error": 0.6877073203782613
+    }
+  ],
+  "derived_Euler_Bernoulli_reference": {
+    "force_N": 9000000.0,
+    "length_mm": 8000.0,
+    "E_MPa": 210000.0,
+    "I_mm4": 83333333333.33333,
+    "tip_mm": 87.77142857142857,
+    "note": "Analytical cross-check against stored results, not a new solver run."
+  },
+  "view_states": [
+    {
+      "name": "CCX_Results",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "CCX_Results_Mesh",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "ElementColorArray": "<Property name=\"ElementColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"ElementColorArray\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"1.0000000000000000\" />\n                </Property>\n                ",
+      "NodeColorArray": "<Property name=\"NodeColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"NodeColorArray\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"5.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ccx_dat_file",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"9\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"9\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "MaterialSolid",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ConstraintFixed",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance1\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "SolverCcxTools",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "FEMMeshGmsh",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "ElementColorArray": "<Property name=\"ElementColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"ElementColorArray1\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"1.0000000000000000\" />\n                </Property>\n                ",
+      "NodeColorArray": "<Property name=\"NodeColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"NodeColorArray1\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"5.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance2\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Box",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "DrawStyle": "<Property name=\"DrawStyle\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "LineColor": "<Property name=\"LineColor\" type=\"App::PropertyColor\" status=\"1\">\n                    <PropertyColor value=\"421075455\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance3\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Group",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Analysis",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ConstraintForce",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance4\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Pipeline_CCX_Results",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"2\" />\n                </Property>\n                ",
+      "Field": "<Property name=\"Field\" type=\"App::PropertyEnumeration\">\n                    <Integer value=\"0\" CustomEnum=\"true\" />\n                    <CustomEnumList count=\"20\">\n                        <Enum value=\"None\" />\n                        <Enum value=\"Displacement\" />\n                        <Enum value=\"Displacement Magnitude\" />\n                        <Enum value=\"Tresca Stress\" />\n                        <Enum value=\"Strain xx component\" />\n                        <Enum value=\"Strain xy component\" />\n                        <Enum value=\"Strain xz component\" />\n                        <Enum value=\"Strain yy component\" />\n                       ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "WarpVector",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"2\" />\n                </Property>\n                ",
+      "Field": "<Property name=\"Field\" type=\"App::PropertyEnumeration\">\n                    <Integer value=\"2\" CustomEnum=\"true\" />\n                    <CustomEnumList count=\"20\">\n                        <Enum value=\"None\" />\n                        <Enum value=\"Displacement\" />\n                        <Enum value=\"Displacement Magnitude\" />\n                        <Enum value=\"Tresca Stress\" />\n                        <Enum value=\"Strain xx component\" />\n                        <Enum value=\"Strain xy component\" />\n                        <Enum value=\"Strain xz component\" />\n                        <Enum value=\"Strain yy component\" />\n                       ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Group001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Plane",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "DrawStyle": "<Property name=\"DrawStyle\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "LineColor": "<Property name=\"LineColor\" type=\"App::PropertyColor\" status=\"1\">\n                    <PropertyColor value=\"421075455\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance5\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Analysis001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "SolverCcxTools001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "FEMMeshGmsh001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "ElementColorArray": "<Property name=\"ElementColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"ElementColorArray2\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"1.0000000000000000\" />\n                </Property>\n                ",
+      "NodeColorArray": "<Property name=\"NodeColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"NodeColorArray2\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"5.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance6\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "MaterialSolid001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ElementGeometry2D",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ConstraintDisplacement",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance7\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ConstraintForce001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance8\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "CCX_Results001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "CCX_Results_Mesh001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "ElementColorArray": "<Property name=\"ElementColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"ElementColorArray3\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "NodeColorArray": "<Property name=\"NodeColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"NodeColorArray3\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"5.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance9\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ccx_dat_file001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"9\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"9\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ResultPipeline",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"2\" />\n                </Property>\n                ",
+      "Field": "<Property name=\"Field\" type=\"App::PropertyEnumeration\">\n                    <Integer value=\"3\" CustomEnum=\"true\" />\n                    <CustomEnumList count=\"20\">\n                        <Enum value=\"None\" />\n                        <Enum value=\"Displacement\" />\n                        <Enum value=\"Displacement Magnitude\" />\n                        <Enum value=\"Tresca Stress\" />\n                        <Enum value=\"Strain xx component\" />\n                        <Enum value=\"Strain xy component\" />\n                        <Enum value=\"Strain xz component\" />\n                        <Enum value=\"Strain yy component\" />\n                       ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "WarpVector001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"2\" />\n                </Property>\n                ",
+      "Field": "<Property name=\"Field\" type=\"App::PropertyEnumeration\">\n                    <Integer value=\"2\" CustomEnum=\"true\" />\n                    <CustomEnumList count=\"20\">\n                        <Enum value=\"None\" />\n                        <Enum value=\"Displacement\" />\n                        <Enum value=\"Displacement Magnitude\" />\n                        <Enum value=\"Tresca Stress\" />\n                        <Enum value=\"Strain xx component\" />\n                        <Enum value=\"Strain xy component\" />\n                        <Enum value=\"Strain xz component\" />\n                        <Enum value=\"Strain yy component\" />\n                       ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Group002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Line",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "DrawStyle": "<Property name=\"DrawStyle\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "LineColor": "<Property name=\"LineColor\" type=\"App::PropertyColor\" status=\"1\">\n                    <PropertyColor value=\"421075455\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance10\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Line001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "DrawStyle": "<Property name=\"DrawStyle\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "LineColor": "<Property name=\"LineColor\" type=\"App::PropertyColor\" status=\"1\">\n                    <PropertyColor value=\"421075455\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance11\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Analysis002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "SolverCcxTools002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "FEMMeshGmsh002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "ElementColorArray": "<Property name=\"ElementColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"ElementColorArray4\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"1.0000000000000000\" />\n                </Property>\n                ",
+      "NodeColorArray": "<Property name=\"NodeColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"NodeColorArray4\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"5.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance12\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "MaterialSolid002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ElementGeometry1D",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ConstraintFixed001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance13\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ConstraintForce002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance14\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ResultPipeline001",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"2\" />\n                </Property>\n                ",
+      "Field": "<Property name=\"Field\" type=\"App::PropertyEnumeration\">\n                    <Integer value=\"0\" CustomEnum=\"true\" />\n                    <CustomEnumList count=\"20\">\n                        <Enum value=\"None\" />\n                        <Enum value=\"Displacement\" />\n                        <Enum value=\"Displacement Magnitude\" />\n                        <Enum value=\"Tresca Stress\" />\n                        <Enum value=\"Strain xx component\" />\n                        <Enum value=\"Strain xy component\" />\n                        <Enum value=\"Strain xz component\" />\n                        <Enum value=\"Strain yy component\" />\n                       ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "WarpVector002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"2\" />\n                </Property>\n                ",
+      "Field": "<Property name=\"Field\" type=\"App::PropertyEnumeration\">\n                    <Integer value=\"2\" CustomEnum=\"true\" />\n                    <CustomEnumList count=\"20\">\n                        <Enum value=\"None\" />\n                        <Enum value=\"Displacement\" />\n                        <Enum value=\"Displacement Magnitude\" />\n                        <Enum value=\"Tresca Stress\" />\n                        <Enum value=\"Strain xx component\" />\n                        <Enum value=\"Strain xy component\" />\n                        <Enum value=\"Strain xz component\" />\n                        <Enum value=\"Strain yy component\" />\n                       ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"2.0000000000000000\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"3.0000000000000000\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "Text_document",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"9\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"9\">\n                    <Bool value=\"true\" />\n                </Property>\n            "
+    },
+    {
+      "name": "CCX_Results002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "ccx_dat_file002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"9\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"9\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    },
+    {
+      "name": "CCX_Results_Mesh002",
+      "DisplayMode": "<Property name=\"DisplayMode\" type=\"App::PropertyEnumeration\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "ElementColorArray": "<Property name=\"ElementColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"ElementColorArray5\" />\n                </Property>\n                ",
+      "LineWidth": "<Property name=\"LineWidth\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"1.0000000000000000\" />\n                </Property>\n                ",
+      "NodeColorArray": "<Property name=\"NodeColorArray\" type=\"App::PropertyColorList\" status=\"67108865\">\n                    <ColorList file=\"NodeColorArray5\" />\n                </Property>\n                ",
+      "PointSize": "<Property name=\"PointSize\" type=\"App::PropertyFloatConstraint\" status=\"1\">\n                    <Float value=\"5.0000000000000000\" />\n                </Property>\n                ",
+      "Selectable": "<Property name=\"Selectable\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"true\" />\n                </Property>\n                ",
+      "ShapeAppearance": "<Property name=\"ShapeAppearance\" type=\"App::PropertyMaterialList\" status=\"1\">\n                    <MaterialList file=\"ShapeAppearance15\" version=\"3\" />\n                </Property>\n                ",
+      "Transparency": "<Property name=\"Transparency\" type=\"App::PropertyPercent\" status=\"1\">\n                    <Integer value=\"0\" />\n                </Property>\n                ",
+      "Visibility": "<Property name=\"Visibility\" type=\"App::PropertyBool\" status=\"1\">\n                    <Bool value=\"false\" />\n                </Property>\n            "
+    }
+  ]
+}

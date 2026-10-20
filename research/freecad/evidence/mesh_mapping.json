@@ -1,0 +1,137 @@
+{
+  "FemMesh.unv": {
+    "nodes": 569,
+    "elements": 518,
+    "types": {
+      "22/3-node": 60,
+      "42/6-node": 216,
+      "118/10-node": 242
+    },
+    "coordinate_bounds": {
+      "x": [
+        0.0,
+        8000.0
+      ],
+      "y": [
+        0.0,
+        1000.0
+      ],
+      "z": [
+        0.0,
+        1000.0
+      ]
+    },
+    "all_element_nodes_resolve": true
+  },
+  "FemMesh1.unv": {
+    "nodes": 177,
+    "elements": 106,
+    "types": {
+      "22/3-node": 36,
+      "42/6-node": 70
+    },
+    "coordinate_bounds": {
+      "x": [
+        0.0,
+        8000.0
+      ],
+      "y": [
+        0.0,
+        1000.0
+      ],
+      "z": [
+        0.0,
+        0.0
+      ]
+    },
+    "all_element_nodes_resolve": true
+  },
+  "FemMesh2.unv": {
+    "nodes": 408,
+    "elements": 70,
+    "types": {
+      "113/15-node": 70
+    },
+    "coordinate_bounds": {
+      "x": [
+        0.0,
+        8000.0
+      ],
+      "y": [
+        0.0,
+        1000.0
+      ],
+      "z": [
+        -500.0,
+        500.0
+      ]
+    },
+    "all_element_nodes_resolve": true
+  },
+  "FemMesh3.unv": {
+    "nodes": 33,
+    "elements": 16,
+    "types": {
+      "22/3-node": 16
+    },
+    "coordinate_bounds": {
+      "x": [
+        0.0,
+        8000.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "z": [
+        0.0,
+        0.0
+      ]
+    },
+    "all_element_nodes_resolve": true
+  },
+  "FemMesh4.unv": {
+    "nodes": 569,
+    "elements": 242,
+    "types": {
+      "118/10-node": 242
+    },
+    "coordinate_bounds": {
+      "x": [
+        0.0,
+        8000.0
+      ],
+      "y": [
+        0.0,
+        1000.0
+      ],
+      "z": [
+        0.0,
+        1000.0
+      ]
+    },
+    "all_element_nodes_resolve": true
+  },
+  "FemMesh5.unv": {
+    "nodes": 200,
+    "elements": 16,
+    "types": {
+      "116/20-node": 16
+    },
+    "coordinate_bounds": {
+      "x": [
+        0.0,
+        8000.0
+      ],
+      "y": [
+        -500.0,
+        500.0
+      ],
+      "z": [
+        -500.0,
+        500.0
+      ]
+    },
+    "all_element_nodes_resolve": true
+  }
+}

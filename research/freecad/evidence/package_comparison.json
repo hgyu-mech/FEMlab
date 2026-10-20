@@ -1,0 +1,66 @@
+[
+  {
+    "path": "bin/freecad.exe",
+    "portable_bytes": 265912,
+    "installer_bytes": 265912,
+    "portable_sha256": "7b38c5d5aa2c74f830539c1c5c44cbf6e3e8e157292c718f9ee24ac6d3e12cf6",
+    "installer_sha256": "7b38c5d5aa2c74f830539c1c5c44cbf6e3e8e157292c718f9ee24ac6d3e12cf6",
+    "byte_identical": true
+  },
+  {
+    "path": "bin/FreeCADGui.dll",
+    "portable_bytes": 33769656,
+    "installer_bytes": 33769656,
+    "portable_sha256": "c5c3f939a7517ad0a0fff38c0358dbef4b9995097476fec34d29f168e05ae3ac",
+    "installer_sha256": "c5c3f939a7517ad0a0fff38c0358dbef4b9995097476fec34d29f168e05ae3ac",
+    "byte_identical": true
+  },
+  {
+    "path": "bin/FreeCADApp.dll",
+    "portable_bytes": 5140664,
+    "installer_bytes": 5140664,
+    "portable_sha256": "efe57703f688cfefe7a6d806e3ea8592ffce516b06874c58597ab7c460780921",
+    "installer_sha256": "efe57703f688cfefe7a6d806e3ea8592ffce516b06874c58597ab7c460780921",
+    "byte_identical": true
+  },
+  {
+    "path": "lib/FemGui.pyd",
+    "portable_bytes": 4169728,
+    "installer_bytes": 4169728,
+    "portable_sha256": "b3c15ce78f0f24163867fa18a97c4fcb7c4e3431987cb33c185157ee283617f1",
+    "installer_sha256": "b3c15ce78f0f24163867fa18a97c4fcb7c4e3431987cb33c185157ee283617f1",
+    "byte_identical": true
+  },
+  {
+    "path": "bin/ccx.exe",
+    "portable_bytes": 8329256,
+    "installer_bytes": 8329256,
+    "portable_sha256": "a7c351a332373e3075029b7986ea4c9e878789c5b4d2feaed1ef83703624fff5",
+    "installer_sha256": "a7c351a332373e3075029b7986ea4c9e878789c5b4d2feaed1ef83703624fff5",
+    "byte_identical": true
+  },
+  {
+    "path": "data/examples/FEMExample.FCStd",
+    "portable_bytes": 528077,
+    "installer_bytes": 528077,
+    "portable_sha256": "bb83368b4b85cfdd24784c547940a31bf91aac450c2a8feea6f55c5a041c64c0",
+    "installer_sha256": "bb83368b4b85cfdd24784c547940a31bf91aac450c2a8feea6f55c5a041c64c0",
+    "byte_identical": true
+  },
+  {
+    "path": "data/Gui/Stylesheets/FreeCAD.qss",
+    "portable_bytes": 82141,
+    "installer_bytes": 82141,
+    "portable_sha256": "bd7ae2fe44efa99188dd93ab422133e532098a170b69113b29cc3081ac2663d1",
+    "installer_sha256": "bd7ae2fe44efa99188dd93ab422133e532098a170b69113b29cc3081ac2663d1",
+    "byte_identical": true
+  },
+  {
+    "path": "Mod/Fem/femsolver/calculix/write_constraint_contact.py",
+    "portable_bytes": 4685,
+    "installer_bytes": 4685,
+    "portable_sha256": "229455e61fc968e5153fc382b3fb80b78069ec734483bd7431be2cd077ae9d56",
+    "installer_sha256": "229455e61fc968e5153fc382b3fb80b78069ec734483bd7431be2cd077ae9d56",
+    "byte_identical": true
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "source": "Mod/Fem/femtaskpanels/task_solver_ccxtools.py",
+  "sha256": "d3c8aa69b32c46d636bf4e065f6eff048eb4fc6f2fe6b0c06f75ebd59d5b6d4a",
+  "method": "AST-isolated execution of calculixFinished with synthetic test doubles. No Qt GUI, FreeCAD, ccx or real result parser execution.",
+  "observations": [
+    {
+      "case": "normal_success",
+      "exit_code": 0,
+      "exit_status": 0,
+      "stdout_check_ok": true,
+      "calls": [
+        "restore_cwd",
+        "button:Re-run CalculiX",
+        "calculixNoError",
+        "message:Loading result sets...",
+        "reset_mesh_purge_results_checked",
+        "load_results"
+      ]
+    },
+    {
+      "case": "normal_exit_reported_error",
+      "exit_code": 1,
+      "exit_status": 0,
+      "stdout_check_ok": false,
+      "calls": [
+        "restore_cwd",
+        "button:Re-run CalculiX",
+        "calculixError",
+        "message:Loading result sets...",
+        "reset_mesh_purge_results_checked",
+        "load_results"
+      ]
+    },
+    {
+      "case": "abnormal_exit",
+      "exit_code": 1,
+      "exit_status": 1,
+      "stdout_check_ok": false,
+      "calls": [
+        "restore_cwd",
+        "button:Re-run CalculiX"
+      ]
+    }
+  ],
+  "interpretation": "In the tested normal-exit/failed-stdout-check branch, calculixError does not terminate this handler and load_results is still called. This alone does not prove incorrect user-visible results; partial-result behavior or further parser validation may be intentional. A separate live failure-case test is required."
+}

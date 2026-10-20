@@ -1,0 +1,3139 @@
+[
+  {
+    "path": "Mod/Fem/Resources/ui/BodyHeatSource.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gpb_heat_source"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_dissipation_rate"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_mode"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_total_power"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_total_power"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_dissipation_rate"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_dissipation_rate"
+      }
+    ],
+    "strings": [
+      "Analysis Feature Properties",
+      "Heat Source",
+      "Mode",
+      "Total power",
+      "W",
+      "Dissipation rate",
+      "W/kg"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ConstraintCentrif.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_3"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_rotation_frequency"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_rotation_frequency"
+      }
+    ],
+    "strings": [
+      "Centrif Parameter",
+      "Parameter",
+      "Rotation frequency",
+      "1/s",
+      "Revolutions per second"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ConstraintSectionPrint.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_3"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_variable"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_variable"
+      }
+    ],
+    "strings": [
+      "Section Print Parameter",
+      "Parameter",
+      "Variable"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ConstraintTie.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_3"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "spb_tolerance"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_tolerance"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_adjust"
+      }
+    ],
+    "strings": [
+      "Tie Parameter",
+      "Parameter",
+      "mm",
+      "Tolerance",
+      "Enable adjust"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/CurrentDensity.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_mode"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_mode"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_mode"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_custom"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_custom_real"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_custom_imag"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_current_density_1"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_current_density_re_1"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_current_density_im_1"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_current_density_2"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_current_density_re_2"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_current_density_im_2"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_current_density_3"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_current_density_re_3"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_current_density_im_3"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_normal"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_normal_real"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_normal_imag"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_normal_current_density"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_normal_current_density_re"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_normal_current_density_im"
+      }
+    ],
+    "strings": [
+      "Analysis Feature Properties",
+      "Select custom mode to enable vector current density",
+      "Mode",
+      "Imaginary part is only used for equations\nwith harmonic/oscillating driving current",
+      "Real",
+      "Imaginary",
+      "X",
+      "Real part of current density x-component",
+      "A/m^2",
+      "Imaginary part of current density x-component",
+      "A/m^2",
+      "Y",
+      "Real part of current density y-component",
+      "A/m^2",
+      "Imaginary part of current density y-component",
+      "A/m^2",
+      "Z",
+      "Real part of current density z-component",
+      "A/m^2",
+      "Imaginary part of current density z-component",
+      "A/m^2",
+      "Current density normal to surface",
+      "Real",
+      "Imaginary",
+      "Normal",
+      "A/m^2",
+      "A/m^2"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/DlgSettingsNetgen.ui",
+    "class": "FemGui::DlgSettingsNetgen",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "FemGui::DlgSettingsNetgen"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_1"
+      },
+      {
+        "class": "Gui::PrefCheckBox",
+        "name": "ckb_legacy"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_netgen_python_path"
+      },
+      {
+        "class": "Gui::PrefFileChooser",
+        "name": "fc_netgen_python_path",
+        "native": "true"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_options"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_log_level"
+      },
+      {
+        "class": "Gui::PrefComboBox",
+        "name": "cb_log_verbosity"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_threads"
+      },
+      {
+        "class": "Gui::PrefSpinBox",
+        "name": "sb_threads"
+      }
+    ],
+    "strings": [
+      "Netgen",
+      "Netgen",
+      "Use legacy Netgen object implementation",
+      "Legacy Netgen",
+      "Python path",
+      "Python executable for which Netgen Python bindings are installed.\nLeave blank to use default Python executable",
+      "Options",
+      "Log verbosity",
+      "Level of verbosity printed on the task panel",
+      "Number of threads",
+      "Number of threads used for meshing"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ElectricChargeDensity.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gpb_electric_charge_density"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_mode"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_mode"
+      },
+      {
+        "class": "QStackedWidget",
+        "name": "sw_mode"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_0"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_interface_charge_density"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_interface_charge_density"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_1"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_source_charge_density"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_source_charge_density"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_2"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_total_charge"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_total_charge"
+      }
+    ],
+    "strings": [
+      "Analysis Feature Properties",
+      "Mode",
+      "Free surface charge density",
+      "Density",
+      "C/mm^2",
+      "Free volume charge density",
+      "Density",
+      "C/mm^3",
+      "Free total charge",
+      "Total charge",
+      "C"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ElectrostaticPotential.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_boundary_condition"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_boundary_condition"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_boundary_condition"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_dirichlet"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_potential"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_potential"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_electromagnetic"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_electromagnetic"
+      },
+      {
+        "class": "QLabel",
+        "name": "labelReal"
+      },
+      {
+        "class": "QLabel",
+        "name": "labelImaginary"
+      },
+      {
+        "class": "QLabel",
+        "name": "labelScalar"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_av"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_av_re"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_av_im"
+      },
+      {
+        "class": "QLabel",
+        "name": "labelX"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_av_1"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_av_re_1"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_av_im_1"
+      },
+      {
+        "class": "QLabel",
+        "name": "labelY"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_av_2"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_av_re_2"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_av_im_2"
+      },
+      {
+        "class": "QLabel",
+        "name": "labelZ"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_av_3"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_av_re_3"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_av_im_3"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_electric_infinity"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_potential_constant"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_neumann"
+      },
+      {
+        "class": "QLabel",
+        "name": "surfacechargedensityLbl"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_electric_flux_density"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_boundary_condition"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_capacitance_body"
+      },
+      {
+        "class": "Gui::IntSpinBox",
+        "name": "spb_capacitance_body"
+      }
+    ],
+    "strings": [
+      "Analysis Feature Properties",
+      "Boundary condition",
+      "Dirichlet",
+      "Potential",
+      "Electric potential",
+      "V",
+      "To define scalar potential and magnetic vector potential",
+      "Electromagnetic potential",
+      "Imaginary part is only used for equations\nwith a harmonic/oscillating driving force",
+      "Real",
+      "Imaginary",
+      "Scalar",
+      "Real part of scalar potential",
+      "V",
+      "Imaginary part of scalar potential",
+      "V",
+      "X",
+      "Real part of vector potential x-component\nNote: has no effect if a solid was selected",
+      "Wb/m",
+      "Imaginary part of vector potential x-component\nNote: has no effect if a solid was selected",
+      "Wb/m",
+      "Y",
+      "Real part of vector potential y-component\nNote: has no effect if a solid was selected",
+      "Wb/m",
+      "Imaginary part of vector potential y-component\nNote: has no effect if a solid was selected",
+      "Wb/m",
+      "Z",
+      "Real part of vector potential z-component\nNote: has no effect if a solid was selected",
+      "Wb/m",
+      "Imaginary part of vector potential z-component\nNote: has no effect if a solid was selected",
+      "Wb/m",
+      "Whether the boundary condition defines a farfield potential",
+      "Electric infinity",
+      "Whether the boundary condition defines a constant potential",
+      "Potential constant",
+      "Neumann",
+      "Electric flux density",
+      "Normal component of electric displacement field",
+      "C/m^2",
+      "Capacitance",
+      "Capacitance body",
+      "Enabled by 'Calculate capacity matrix' in Electrostatic equation",
+      "Counter of the body (or face) with a capacitance"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ElementFluid1D.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_3"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_section_type"
+      },
+      {
+        "class": "QStackedWidget",
+        "name": "sw_section_type"
+      },
+      {
+        "class": "QWidget",
+        "name": "page"
+      },
+      {
+        "class": "QLabel",
+        "name": "label"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_liquid_section_type"
+      },
+      {
+        "class": "QStackedWidget",
+        "name": "sw_liquid_section_type"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_4"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_4"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_manning_area"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_5"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_manning_radius"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_6"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "sb_manning_coefficient"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_5"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_7"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_enlarge_area1"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_8"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_enlarge_area2"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_6"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_10"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_contract_area1"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_9"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_contract_area2"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_7"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_inletpressure"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_11"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_inletpressure"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_inletflowrate"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_13"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_inletflowrate"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_8"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_outletpressure"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_12"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_outletpressure"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_outletflowrate"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_14"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_outletflowrate"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_9"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_15"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_entrance_pipe_area"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_16"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_entrance_area"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_10"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_17"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_diaphragm_pipe_area"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_18"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_diaphragm_area"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_11"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_19"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_bend_pipe_area"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_20"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "sb_bradius_pdiameter"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_21"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "sb_bend_angle"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_22"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "sb_bend_loss_coefficient"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_12"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_23"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_gatevalve_pipe_area"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_24"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "sb_gatevalve_closing_coeff"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_13"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_25"
+      },
+      {
+        "class": "QTableWidget",
+        "name": "tw_pump_characteristics"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_14"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_26"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_colebrooke_pipe_area"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_27"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_colebrooke_radius"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_28"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_colebrooke_grain_diameter"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_29"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "sb_colebrooke_form_factor"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_2"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_gas_section_type"
+      },
+      {
+        "class": "QWidget",
+        "name": "page_3"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_channel_section_type"
+      }
+    ],
+    "strings": [
+      "Form",
+      "Fluid Section Parameter",
+      "Liquid section parameter",
+      "Pipe area",
+      "0 mm^2",
+      "mm^2",
+      "Hydraulic radius",
+      "0 mm",
+      "mm",
+      "Manning coefficient",
+      "Initial area",
+      "0 mm^2",
+      "mm^2",
+      "Enlarged area",
+      "0 mm^2",
+      "mm^2",
+      "Initial area",
+      "0 mm^2",
+      "mm^2",
+      "Contracted area",
+      "0 mm^2",
+      "mm^2",
+      "Inlet Pressure",
+      "Pressure",
+      "0 MPa",
+      "MPa",
+      "Inlet Mass Flow Rate",
+      "Mass flow rate",
+      "0 kg/s",
+      "kg/s",
+      "Outlet Pressure",
+      "Pressure",
+      "0 MPa",
+      "MPa",
+      "Outlet Mass Flow Rate",
+      "Mass flow rate",
+      "0 kg/s",
+      "kg/s",
+      "Pipe area",
+      "0 mm^2",
+      "mm^2",
+      "Entrance area",
+      "0 mm^2",
+      "mm^2",
+      "Pipe area",
+      "0 mm^2",
+      "mm^2",
+      "Diaphragm area",
+      "0 mm^2",
+      "mm^2",
+      "Pipe area",
+      "0 mm^2",
+      "mm^2",
+      "Bend radius / pipe diameter",
+      "Bend angle",
+      "Head loss coefficient",
+      "Pipe area",
+      "0 mm^2",
+      "mm^2",
+      "Gate valve closing coefficient",
+      "Pump characteristic",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "Flow rate [mm^3/s]",
+      "Head Loss [mm]",
+      "Pipe area",
+      "0 mm^2",
+      "mm^2",
+      "Hydraulic radius",
+      "0 mm",
+      "mm",
+      "Grain diameter",
+      "0 mm",
+      "mm",
+      "Cross section form factor",
+      "Gas section parameter",
+      "Open channel section parameter"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ElementGeometry1D.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_2"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_cross_section_type"
+      },
+      {
+        "class": "QStackedWidget",
+        "name": "widget_stack"
+      },
+      {
+        "class": "QWidget",
+        "name": "wgt_rectangular"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_rec_width"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_rec_width"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_rec_height"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_rec_height"
+      },
+      {
+        "class": "QWidget",
+        "name": "wgt_cicular"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_circ_diameter"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_circ_diameter"
+      },
+      {
+        "class": "QWidget",
+        "name": "wgt_pipe"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_pipe_diameter"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_pipe_diameter"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_pipe_thickness"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_pipe_thickness"
+      },
+      {
+        "class": "QWidget",
+        "name": "wgt_elliptical"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_elliptical_axis1"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_elliptical_axis1"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_elliptical_axis2"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_elliptical_axis2"
+      },
+      {
+        "class": "QWidget",
+        "name": "wgt_box"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_box_width"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_box_width"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_box_height"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_box_height"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_box_t1"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_box_t1"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_box_t2"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_box_t2"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_box_t3"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_box_t3"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_box_t4"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_box_t4"
+      }
+    ],
+    "strings": [
+      "Beam Section Parameter",
+      "Cross-Section Parameter",
+      "Width",
+      "mm",
+      "Height",
+      "mm",
+      "Diameter",
+      "mm",
+      "Outer diameter",
+      "mm",
+      "Thickness",
+      "mm",
+      "Axis1 length",
+      "mm",
+      "Axis2 length",
+      "mm",
+      "Width",
+      "mm",
+      "Height",
+      "mm",
+      "T1 thickness",
+      "mm",
+      "T2 thickness",
+      "mm",
+      "T3 thickness",
+      "mm",
+      "T4 thickness",
+      "mm"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ElementGeometry2D.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_3"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_thickness"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_thickness"
+      }
+    ],
+    "strings": [
+      "Shell Thickness Parameter",
+      "Parameter",
+      "Thickness",
+      "mm"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ElementRotation1D.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_2"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "if_rotation"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_rotation"
+      }
+    ],
+    "strings": [
+      "Beam Section Rotation",
+      "Cross-Section Parameter",
+      "0 degree",
+      "degree",
+      "Rotation"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/FlowVelocity.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "formulaXCB"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "velocityXBox"
+      },
+      {
+        "class": "QLabel",
+        "name": "volocityXLbl"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "formulaX"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "velocityX"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "formulaYCB"
+      },
+      {
+        "class": "QLabel",
+        "name": "velocityYLbl"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "velocityYBox"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "formulaY"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "velocityY"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "velocityZBox"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "formulaZCB"
+      },
+      {
+        "class": "QLabel",
+        "name": "velocityZLbl"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "formulaZ"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "velocityZ"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "normalBox"
+      }
+    ],
+    "strings": [
+      "Analysis Feature Properties",
+      "Formula",
+      "Unspecified",
+      "Velocity X",
+      "Formula",
+      "Velocity Y",
+      "Unspecified",
+      "Unspecified",
+      "Formula",
+      "Velocity Z",
+      "Normal to boundary"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/InitialFlowVelocity.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "formulaXCB"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "velocityXBox"
+      },
+      {
+        "class": "QLabel",
+        "name": "volocityXLbl"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "formulaX"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "velocityX"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "formulaYCB"
+      },
+      {
+        "class": "QLabel",
+        "name": "velocityYLbl"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "velocityYBox"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "formulaY"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "velocityY"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "velocityZBox"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "formulaZCB"
+      },
+      {
+        "class": "QLabel",
+        "name": "velocityZLbl"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "formulaZ"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "velocityZ"
+      }
+    ],
+    "strings": [
+      "Analysis Feature Properties",
+      "Formula",
+      "Unspecified",
+      "Velocity X",
+      "Formula",
+      "Velocity Y",
+      "Unspecified",
+      "Unspecified",
+      "Formula",
+      "Velocity Z"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/InitialPressure.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QLabel",
+        "name": "pressureLbl"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "pressureQSB"
+      }
+    ],
+    "strings": [
+      "Analysis Feature Properties",
+      "Pressure",
+      "kPa"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/Magnetization.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_custom"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_custom_real"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_custom_imag"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_magnetization_1"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_magnetization_re_1"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_magnetization_im_1"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_magnetization_2"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_magnetization_re_2"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_magnetization_im_2"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_magnetization_3"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_magnetization_re_3"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_magnetization_im_3"
+      }
+    ],
+    "strings": [
+      "Analysis Feature Properties",
+      "Imaginary part is only used for equations\nwith harmonic/oscillating driving current",
+      "Real",
+      "Imaginary",
+      "X",
+      "Real part of magnetization x-component",
+      "A/m",
+      "Imaginary part of magnetization x-component",
+      "A/m",
+      "Y",
+      "Real part of magnetization y-component",
+      "A/m",
+      "Imaginary part of magnetization y-component",
+      "A/m",
+      "Z",
+      "Real part of magnetization z-component",
+      "A/m",
+      "Imaginary part of magnetization z-component",
+      "A/m"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/Material.ui",
+    "class": "FemMaterial",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "FemMaterial"
+      },
+      {
+        "class": "MatGui::MaterialTreeWidget",
+        "name": "wgt_material_tree"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_basic"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_8"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_density"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_mechanical"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_6"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_young_modulus"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_7"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_poisson_ratio"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_fluidic"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_16"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_kinematic_viscosity"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_thermal"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_12"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_thermal_conductivity"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_expansion_coefficient"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_expansion_coefficient"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_expansion_reference_temperature"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_expansion_reference_temperature"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_14"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_specific_heat"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "chbu_allow_edit"
+      }
+    ],
+    "strings": [
+      "FEM Material",
+      "Basic Properties",
+      "Density",
+      "kg/m^3",
+      "Mechanical Properties",
+      "Young's modulus",
+      "Pa",
+      "Poisson ratio",
+      "Fluidic Properties",
+      "Kinematic viscosity",
+      "m^2/s",
+      "Thermal Properties",
+      "Thermal conductivity",
+      "W/m/K",
+      "Expansion coefficient",
+      "m/m/K",
+      "Reference temperature",
+      "Reference temperature for thermal expansion",
+      "K",
+      "Specific heat capacity",
+      "J/kg/K",
+      "Use this task panel"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/MaterialReinforcement.ui",
+    "class": "FemMaterialReinforcement",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "FemMaterialReinforcement"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_desc"
+      },
+      {
+        "class": "MatGui::MaterialTreeWidget",
+        "name": "wgt_material_tree"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_material_descr"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_desc_2"
+      },
+      {
+        "class": "MatGui::MaterialTreeWidget",
+        "name": "wgt_reinf_tree"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_reinf_descr"
+      }
+    ],
+    "strings": [
+      "FEM Material Reinforcement",
+      "Matrix Material",
+      "Reinforcement Material"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/MeshBoundaryLayer.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_3"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_layers"
+      },
+      {
+        "class": "Gui::IntSpinBox",
+        "name": "isb_number_of_layers"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_thickness"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_min_thickness"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_growth_rate"
+      },
+      {
+        "class": "Gui::DoubleSpinBox",
+        "name": "dsb_growth_rate"
+      }
+    ],
+    "strings": [
+      "Mesh Boundary Layer Settings",
+      "Parameter",
+      "Maximum layers",
+      "Minimum/1st thickness",
+      "mm",
+      "Growth ratio"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/MeshGmsh.ui",
+    "class": "GmshMesh",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "GmshMesh"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb01_mesh_params"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_dimension"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_dimension"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_max"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_max_size"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_min"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_min_size"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_order"
+      },
+      {
+        "class": "QLabel",
+        "name": "I_order"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb03_run_gmsh"
+      },
+      {
+        "class": "QTextEdit",
+        "name": "te_output"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_time"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_get_gmsh_version"
+      }
+    ],
+    "strings": [
+      "FEM Mesh by Gmsh",
+      "Mesh Parameters",
+      "Element dimension",
+      "Maximum size",
+      "Use 0.0 to set size automatically",
+      "mm",
+      "Minimum size",
+      "Use 0.0 to set size automatically",
+      "mm",
+      "Element order",
+      "Gmsh",
+      "Time",
+      "Gmsh Version"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/MeshGroup.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_3"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_name"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_label"
+      }
+    ],
+    "strings": [
+      "Mesh Group",
+      "Identifier Used for Mesh Export",
+      "Name",
+      "Label"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/MeshGroupXDMFExport.ui",
+    "class": "Dialog",
+    "widgets": [
+      {
+        "class": "QDialog",
+        "name": "Dialog"
+      },
+      {
+        "class": "QLabel",
+        "name": "label"
+      },
+      {
+        "class": "QTableWidget",
+        "name": "tableGroups"
+      }
+    ],
+    "strings": [
+      "Dialog",
+      "Mesh groups detected. Choose values for the different groups.",
+      "Id",
+      "Label",
+      "Elements",
+      "Not Marked",
+      "Marked"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/MeshNetgen.ui",
+    "class": "NetgenMesh",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "NetgenMesh"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gpb_mesh_params"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_fineness"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_fineness"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_max"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_max_size"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_min"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_min_size"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_second_order"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "Gui::DoubleSpinBox",
+        "name": "dsb_growth_rate"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "Gui::DoubleSpinBox",
+        "name": "dsb_curvature_safety"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "Gui::DoubleSpinBox",
+        "name": "dsb_seg_per_edge"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb03_run_netgen"
+      },
+      {
+        "class": "QTextEdit",
+        "name": "te_output"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_time"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_get_netgen_version"
+      }
+    ],
+    "strings": [
+      "FEM Mesh by Netgen",
+      "Mesh Parameters",
+      "Fineness",
+      "Maximum size",
+      "mm",
+      "Minimum size",
+      "mm",
+      "Second order",
+      "Growth rate",
+      "Curvature safety",
+      "Segments per edge",
+      "Netgen",
+      "Time",
+      "Netgen Version"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/MeshRegion.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_3"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_max"
+      },
+      {
+        "class": "Gui::QuantitySpinBox",
+        "name": "qsb_elelen"
+      }
+    ],
+    "strings": [
+      "Mesh Refinement",
+      "Parameter",
+      "Maximum element size",
+      "mm"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/PostHistogramFieldAppEdit.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QComboBox",
+        "name": "Field"
+      },
+      {
+        "class": "QComboBox",
+        "name": "Component"
+      },
+      {
+        "class": "QLabel",
+        "name": "label"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "Extract"
+      }
+    ],
+    "strings": [
+      "Form",
+      "Field",
+      "Frames",
+      "One field for each frame"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/PostHistogramFieldViewEdit.ui",
+    "class": "PostHistogramEdit",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "PostHistogramEdit"
+      },
+      {
+        "class": "QComboBox",
+        "name": "LineStyle"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "LineWidth"
+      },
+      {
+        "class": "QComboBox",
+        "name": "Hatch"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QSpinBox",
+        "name": "HatchDensity"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "Legend"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_5"
+      },
+      {
+        "class": "QToolButton",
+        "name": "LineColor"
+      },
+      {
+        "class": "QToolButton",
+        "name": "BarColor"
+      }
+    ],
+    "strings": [
+      "Form",
+      "Outline draw style (None does not draw outlines)",
+      "None",
+      "Width of all lines (outline and hatch)",
+      "Hatch pattern",
+      "None",
+      "Lines",
+      "Density of hatch pattern",
+      "Bars",
+      "Legend",
+      "Color of all lines (bar outline and hatches)",
+      "Color of the bars in histogram"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/PostHistogramIndexAppEdit.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QComboBox",
+        "name": "Field"
+      },
+      {
+        "class": "QComboBox",
+        "name": "Component"
+      },
+      {
+        "class": "QLabel",
+        "name": "label"
+      },
+      {
+        "class": "QSpinBox",
+        "name": "Index"
+      }
+    ],
+    "strings": [
+      "Form",
+      "Field",
+      "Index"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/PostLineplotFieldAppEdit.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QComboBox",
+        "name": "XField"
+      },
+      {
+        "class": "QComboBox",
+        "name": "XComponent"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_4"
+      },
+      {
+        "class": "QComboBox",
+        "name": "YField"
+      },
+      {
+        "class": "QComboBox",
+        "name": "YComponent"
+      },
+      {
+        "class": "QLabel",
+        "name": "label"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "Extract"
+      }
+    ],
+    "strings": [
+      "Form",
+      "X field",
+      "Y field",
+      "Frames",
+      "One Y field for each frame"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/PostLineplotFieldViewEdit.ui",
+    "class": "PostHistogramEdit",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "PostHistogramEdit"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QComboBox",
+        "name": "LineStyle"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "Legend"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_5"
+      },
+      {
+        "class": "QComboBox",
+        "name": "MarkerStyle"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "QToolButton",
+        "name": "Color"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "LineWidth"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "MarkerSize"
+      }
+    ],
+    "strings": [
+      "Form",
+      "Marker",
+      "Hatch pattern",
+      "None",
+      "Legend",
+      "Outline draw style (None does not draw outlines)",
+      "None",
+      "Line",
+      "Color of the bars in histogram",
+      "Width of all lines (outline and hatch)"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/PostLineplotIndexAppEdit.ui",
+    "class": "Form",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "Form"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_4"
+      },
+      {
+        "class": "QComboBox",
+        "name": "YField"
+      },
+      {
+        "class": "QComboBox",
+        "name": "YComponent"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QSpinBox",
+        "name": "Index"
+      }
+    ],
+    "strings": [
+      "Form",
+      "Y field",
+      "Index"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/PostTableFieldViewEdit.ui",
+    "class": "PostHistogramEdit",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "PostHistogramEdit"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "Name"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_5"
+      }
+    ],
+    "strings": [
+      "Form",
+      "Name"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ResultHints.ui",
+    "class": "ShowDisplacement",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "ShowDisplacement"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_displacement_2"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_2"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_14"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_3"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_15"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_4"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_12"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_5"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_13"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_7"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_19"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_11"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_16"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_10"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_17"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_9"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_18"
+      },
+      {
+        "class": "QLabel",
+        "name": "user_def_head_8"
+      }
+    ],
+    "strings": [
+      "Hints User-Defined Equations",
+      "Available Result Types",
+      "displacement: x, y, z",
+      "temperature: T",
+      "stress: sxx, syy, szz, sxy, sxz, syz",
+      "network pressure: NP",
+      "strain: exx, eyy, ezz, exy, exz, eyz",
+      "mass flow rate: MF",
+      "reinforcement ratio: rx, ry, rz",
+      "von Mises stress: vM",
+      "equivalent plastic strain: Peeq",
+      "maximum shear stress: MS",
+      "maximum princ. stress vector: s3x, s3y, s3z",
+      "maximum principal stress: P1",
+      "medium princ. stress vector: s2x, s2y, s2z",
+      "medium principal stress: P2",
+      "minimum princ. stress vector: s1x, s1y, s1z",
+      "minimum principal stress: P3",
+      "Mohr-Coulomb: mc"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/ResultShow.ui",
+    "class": "ShowDisplacement",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "ShowDisplacement"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_result_type"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_none"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_abs_displacement"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_vm_stress"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_x_displacement"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_maxprin"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_y_displacement"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_minprin"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_z_displacement"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_max_shear_stress"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_peeq"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_massflowrate"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_temperature"
+      },
+      {
+        "class": "QRadioButton",
+        "name": "rb_networkpressure"
+      },
+      {
+        "class": "QPushButton",
+        "name": "show_histogram"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_4"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "le_min"
+      },
+      {
+        "class": "QLabel",
+        "name": "label"
+      },
+      {
+        "class": "Gui::InputField",
+        "name": "le_max"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_displacement"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "cb_show_displacement"
+      },
+      {
+        "class": "QSlider",
+        "name": "hsb_displacement_factor"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "sb_displacement_factor"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_7"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "sb_displacement_factor_max"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_animation"
+      },
+      {
+        "class": "QWidget",
+        "name": "layoutWidget"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_1"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "steps"
+      },
+      {
+        "class": "QWidget",
+        "name": "layoutWidget"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_8"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "loops"
+      },
+      {
+        "class": "QWidget",
+        "name": "layoutWidget"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "framerate"
+      },
+      {
+        "class": "QPushButton",
+        "name": "startButton"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_displacement_2"
+      },
+      {
+        "class": "QPushButton",
+        "name": "calculate"
+      },
+      {
+        "class": "QPlainTextEdit",
+        "name": "user_def_eq"
+      }
+    ],
+    "strings": [
+      "Show Result",
+      "Result Type",
+      "None",
+      "Displacement magnitude",
+      "von Mises Stress",
+      "Displacement X",
+      "Maximum principal stress",
+      "Displacement Y",
+      "Minimum principal stress",
+      "Displacement Z",
+      "Maximum shear stress (Tresca)",
+      "Equivalent plastic strain",
+      "Mass flow rate",
+      "Temperature",
+      "Network pressure",
+      "Histogram",
+      "Minimum",
+      "0 mm",
+      "mm",
+      "Maximum",
+      "mm",
+      "Displacement Scaling",
+      "Show",
+      "Factor",
+      "Slider maximum",
+      "Animation Control",
+      "Number of steps per cycle",
+      "Number of cycles",
+      "Frame rate",
+      "Toggles between Start and Stop",
+      "Start Animation",
+      "User-Defined Equation",
+      "Runs the equation given in the field below,\noutputs the results to the Min and Max fields\nand colors the result mesh accordingly",
+      "Calculate",
+      "Enter here an equation to be calculated.\nFor possible variables, see the description box below.",
+      "P1 - P3 # Max - Min Principal Stress"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/SolverCalculiX.ui",
+    "class": "SolverCalculiX",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "SolverCalculiX"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_working_directory"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gpb_working_directory"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_write_input"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_edit_input"
+      },
+      {
+        "class": "Gui::FileChooser",
+        "name": "fc_working_directory"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gpb_solver_params"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_analysis_type"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_analysis_type"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_solver_log"
+      },
+      {
+        "class": "QTextEdit",
+        "name": "te_output"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_time"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_solver_version"
+      }
+    ],
+    "strings": [
+      "Solver CalculiX Control",
+      "Working directory",
+      "Write",
+      "Edit",
+      "Path to working directory",
+      "Solver Parameters",
+      "Analysis type",
+      "Time",
+      "Solver Version"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/SolverCcxTools.ui",
+    "class": "SolverCalculix",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "SolverCalculix"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_working_dir"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "le_working_dir"
+      },
+      {
+        "class": "QToolButton",
+        "name": "tb_choose_working_dir"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_analysis_type"
+      },
+      {
+        "class": "Gui::PrefRadioButton",
+        "name": "rb_static_analysis"
+      },
+      {
+        "class": "Gui::PrefRadioButton",
+        "name": "rb_frequency_analysis"
+      },
+      {
+        "class": "Gui::PrefRadioButton",
+        "name": "rb_thermomech_analysis"
+      },
+      {
+        "class": "Gui::PrefRadioButton",
+        "name": "rb_check_mesh"
+      },
+      {
+        "class": "Gui::PrefRadioButton",
+        "name": "rb_buckling_analysis"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_write_inp"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_edit_inp"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_run_ccx"
+      },
+      {
+        "class": "QTextEdit",
+        "name": "textEdit_Output"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_time"
+      }
+    ],
+    "strings": [
+      "Mechanical Analysis",
+      "Working Directory",
+      "…",
+      "Analysis Type",
+      "Static",
+      "Frequency",
+      "Thermo mechanical",
+      "Check Mesh",
+      "Buckling",
+      "Write .inp File",
+      "Edit .inp File",
+      "Run CalculiX",
+      "Time"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/SolverElmer.ui",
+    "class": "SolverElmer",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "SolverElmer"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "ckb_working_directory"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gpb_working_directory"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_write_input"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_edit_input"
+      },
+      {
+        "class": "Gui::FileChooser",
+        "name": "fc_working_directory"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gpb_solver_params"
+      },
+      {
+        "class": "QLabel",
+        "name": "lbl_simulation_type"
+      },
+      {
+        "class": "QComboBox",
+        "name": "cb_simulation_type"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "gb_solver_log"
+      },
+      {
+        "class": "QTextEdit",
+        "name": "te_output"
+      },
+      {
+        "class": "QLabel",
+        "name": "l_time"
+      },
+      {
+        "class": "QPushButton",
+        "name": "pb_solver_version"
+      }
+    ],
+    "strings": [
+      "Solver Elmer Control",
+      "Working directory",
+      "Write",
+      "Edit",
+      "Path to working directory",
+      "Solver Parameters",
+      "Simulation type",
+      "Time",
+      "Solver Version"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/TaskPostExtraction.ui",
+    "class": "TaskPostExtraction",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "TaskPostExtraction"
+      },
+      {
+        "class": "QPushButton",
+        "name": "Summary"
+      },
+      {
+        "class": "QPushButton",
+        "name": "Data"
+      }
+    ],
+    "strings": [
+      "Form",
+      "Data Summary",
+      "Show Data"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/TaskPostGlyph.ui",
+    "class": "TaskPostGlyph",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "TaskPostGlyph"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QComboBox",
+        "name": "FormComboBox"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_10"
+      },
+      {
+        "class": "QComboBox",
+        "name": "OrientationComboBox"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "Scale"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_4"
+      },
+      {
+        "class": "QComboBox",
+        "name": "ScaleComboBox"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_5"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "ScaleFactorBox"
+      },
+      {
+        "class": "QSlider",
+        "name": "ScaleSlider"
+      },
+      {
+        "class": "QComboBox",
+        "name": "VectorModeComboBox"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "Mask"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_6"
+      },
+      {
+        "class": "QSpinBox",
+        "name": "MaxBox"
+      },
+      {
+        "class": "QLabel",
+        "name": "StrideLabel"
+      },
+      {
+        "class": "QLabel",
+        "name": "MaxLabel"
+      },
+      {
+        "class": "QSpinBox",
+        "name": "StrideBox"
+      },
+      {
+        "class": "QComboBox",
+        "name": "MaskModeComboBox"
+      }
+    ],
+    "strings": [
+      "Glyph Settings",
+      "The form of the glyph",
+      "Form",
+      "The form of the glyph",
+      "Arrow",
+      "Cone",
+      "Cube",
+      "Cylinder",
+      "Line",
+      "Sphere",
+      "Which vector field is used to orient the glyphs",
+      "Orientation",
+      "Which vector field is used to orient the glyphs",
+      "None",
+      "Sca&le",
+      "Which data field is used to scale the glyphs",
+      "Data",
+      "Which data field is used to scale the glyphs",
+      "None",
+      "A constant multiplier the glyphs are scaled with",
+      "Factor",
+      "A constant multiplier the glyphs are scaled with",
+      "Changes the scale factor by +/- 50% of the set scale factor",
+      "If the scale data is a vector this property decides if the glyph is scaled by vector magnitude or by the individual components",
+      "Not a vector",
+      "By magnitude",
+      "By components",
+      "Vertex Mas&king",
+      "Which vertices are used as glyph locations",
+      "Mode",
+      "Defines the maximal number of vertices used for \"Uniform Sampling\" masking mode",
+      "Define the stride for \"Every Nth\" masking mode",
+      "Stride",
+      "Defines the maximum number of vertices used for \"Uniform Sampling\" masking mode",
+      "Maximum",
+      "Define the stride for \"Every Nth\" masking mode",
+      "Which vertices are used as glyph locations",
+      "All",
+      "Every Nth",
+      "Uniform Sampling"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/TaskPostHistogram.ui",
+    "class": "TaskPostGlyph",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "TaskPostGlyph"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QSpinBox",
+        "name": "Bins"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_10"
+      },
+      {
+        "class": "QComboBox",
+        "name": "Type"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "Cumulative"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox_2"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "LegendShow"
+      },
+      {
+        "class": "QComboBox",
+        "name": "LegendPos"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "Scale"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "Title"
+      },
+      {
+        "class": "QLabel",
+        "name": "label"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "YLabel"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_4"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_5"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "XLabel"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "groupBox"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "BarWidth"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_6"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "QDoubleSpinBox",
+        "name": "HatchWidth"
+      }
+    ],
+    "strings": [
+      "Glyph Settings",
+      "The form of the glyph",
+      "Bins",
+      "Which vector field is used to orient the glyphs",
+      "Type",
+      "Which vector field is used to orient the glyphs",
+      "None",
+      "Cumulative",
+      "Legend",
+      "Show",
+      "Labels",
+      "Y-axis",
+      "If the scale data is a vector this property decides if the glyph is scaled by vector magnitude or by the individual components",
+      "X Axis",
+      "A constant multiplier the glyphs are scaled with",
+      "Title",
+      "Visuals",
+      "Hatch Line Width",
+      "Bar width"
+    ]
+  },
+  {
+    "path": "Mod/Fem/Resources/ui/TaskPostLineplot.ui",
+    "class": "TaskPostGlyph",
+    "widgets": [
+      {
+        "class": "QWidget",
+        "name": "TaskPostGlyph"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_2"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "Grid"
+      },
+      {
+        "class": "QCheckBox",
+        "name": "LegendShow"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_3"
+      },
+      {
+        "class": "QComboBox",
+        "name": "LegendPos"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_10"
+      },
+      {
+        "class": "QComboBox",
+        "name": "Scale"
+      },
+      {
+        "class": "QGroupBox",
+        "name": "Form"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "Title"
+      },
+      {
+        "class": "QLabel",
+        "name": "label"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "YLabel"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_4"
+      },
+      {
+        "class": "QLabel",
+        "name": "label_5"
+      },
+      {
+        "class": "QLineEdit",
+        "name": "XLabel"
+      }
+    ],
+    "strings": [
+      "Glyph Settings",
+      "The form of the glyph",
+      "Grid",
+      "Show",
+      "Show",
+      "Legend",
+      "Which vector field is used to orient the glyphs",
+      "Scale",
+      "Which vector field is used to orient the glyphs",
+      "None",
+      "Labels",
+      "Y-axis",
+      "If the scale data is a vector this property decides if the glyph is scaled by vector magnitude or by the individual components",
+      "X-axis",
+      "A constant multiplier the glyphs are scaled with",
+      "Title"
+    ]
+  }
+]
