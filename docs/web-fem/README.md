@@ -5,7 +5,11 @@
 
 이 기획은 공개 프로젝트와 독립적인 합성 예제를 대상으로 한다. 기관의 공식 개발 계획을 대신하지 않는다. 비공개 문서, 녹음, 업무용 CAD, 미공개 알고리즘, 개인정보와 비밀 키를 포함하지 않는다. AI 지원으로 작성한 초안이며 구현과 기술적 결론에는 독립적인 검토가 필요하다.
 
+- **[Codex 시작 페이지](CODEX_START_HERE.md)**
 - [공개 소스 및 브라우저 조사 기록](REFERENCE_AUDIT.md)
+- [실제 FreeCAD/CalculiX 실행 검증 결과](RUNTIME_RESULTS_20261020.md)
+- [이미지 3,472개 카탈로그 및 독립 디자인 설계](ASSET_DESIGN_HANDOFF.md)
+- [로컬 원본 증거 위치와 공개 범위](LOCAL_EVIDENCE_AND_LIMITS.md)
 - [Codex 구현 인계와 acceptance gate](CODEX_HANDOFF.md)
 - 기존 저장소의 [architecture](../ARCHITECTURE.md), [validation policy](../VALIDATION.md)는 유지한다.
 
